@@ -5,11 +5,11 @@ import { supabase } from '../lib/supabase';
 
 // Adjusted physics constants for better gameplay feel
 const GRAVITY = 0.25; // Reduced from 0.35
-const FLAP_STRENGTH = -8;
+const FLAP_STRENGTH = -9;
 const PENGUIN_WIDTH = 50;
 const PENGUIN_HEIGHT = 50;
-const RUG_WIDTH = 80;
-const RUG_GAP = 250;
+const RUG_WIDTH = 70;
+const RUG_GAP = 350;
 const RUG_SPEED = 2.5;
 const IMMUNITY_DURATION = 1500; // 1.5 seconds immunity
 
